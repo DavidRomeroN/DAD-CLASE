@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/DavidRomeroN/DAD-CLASE.git # ruta del repositorio git
           searchPaths: config-data
           default-label: master
-          
+
   security:
     user:
       name: root
