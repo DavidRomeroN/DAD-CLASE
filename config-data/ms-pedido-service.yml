@@ -37,13 +37,3 @@ resilience4j.circuitbreaker:
       minimumNumberOfCalls: 4
       waitDurationInOpenState: 5s
 
-resilience4j.circuitbreaker:
-  instances:
-    clientListByIdCB:
-      registerHealthIndicator: true
-      slidingWindowSize: 10
-      permittedNumberOfCallsInHalfOpenState: 3
-      slidingWindowType: TIME_BASED
-      minimumNumberOfCalls: 4
-      waitDurationInOpenState: 5s
-
